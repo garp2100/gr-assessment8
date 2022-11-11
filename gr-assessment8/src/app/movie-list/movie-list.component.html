@@ -1,1 +1,6 @@
-<p>movie-list works!</p>
+<h1>Movie List</h1>
+<section *ngFor="let movie of movies">
+  <h3>Movie Title: {{ movie.title }}</h3>
+  <h3>Release Year: {{ movie.releaseYear }}</h3>
+  <br />
+</section>

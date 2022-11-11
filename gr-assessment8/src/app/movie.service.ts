@@ -7,21 +7,13 @@ import { Movie } from './movie';
 export class MovieService {
   movies: Movie[] = [
     {
-      title: "Titanic",
-      releaseYear: 1998
+      title: "Toy Story",
+      releaseYear: 1995
     },
     {
       title: "Forrest Gump",
       releaseYear: 1994
-    },
-    {
-      title: "Beavis and Butthead do America",
-      releaseYear: 1998
-    },
-    {
-      title: "2001: A Space Odissey",
-      releaseYear: 1968
-    },
+    }
   ]
 
   constructor() { }
